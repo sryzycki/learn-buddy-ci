@@ -31,7 +31,7 @@ module.exports = function (config) {
     customLaunchers         : {
       ChromeHeadlessNoSandbox: {
         base : 'ChromeHeadless',
-        flags: ['--no-sandbox']
+        flags: ['--disable-translate', '--disable-extensions', '--remote-debugging-port=9223', '--no-sandbox']
       }
     },
     singleRun: false
