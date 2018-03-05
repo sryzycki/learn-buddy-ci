@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/sryzycki/learn-buddy-ci/compare/v0.3.0...v0.4.0) (2018-03-05)
+
+
+### Features
+
+* **app:** add an amazing feature ([#4](https://github.com/sryzycki/learn-buddy-ci/issues/4)) ([98bcd6b](https://github.com/sryzycki/learn-buddy-ci/commit/98bcd6b))
+
+
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/sryzycki/learn-buddy-ci/compare/v0.2.0...v0.3.0) (2018-03-05)
 
