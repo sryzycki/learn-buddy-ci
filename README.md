@@ -1,6 +1,8 @@
+[![buddy pipeline](https://app.buddy.works/ryzycki/learn-buddy-ci/pipelines/pipeline/127216/badge.svg?token=81f18e8e61a116295a76644403a8a2f75f248e54e8c31f99551ff42515ce5752 "buddy pipeline")](https://app.buddy.works/ryzycki/learn-buddy-ci/pipelines/pipeline/127216)
+
 # LearnBuddy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-beta.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-beta.3. The goal is to see how useful [Buddy](https://buddy.works/) can be to implement Continues Delivery in an Angular project.
 
 ## Development server
 
