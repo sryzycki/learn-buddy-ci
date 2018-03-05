@@ -2,7 +2,8 @@
 
 # LearnBuddy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-beta.3. The goal is to see how useful [Buddy](https://buddy.works/) can be to implement Continues Delivery in an Angular project.
+The goal is to see how useful [Buddy](https://buddy.works/) can be to implement Continuous Delivery in an Angular project.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-beta.3.
 
 ## Development server
 
