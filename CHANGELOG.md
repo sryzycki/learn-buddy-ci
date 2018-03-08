@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.8.0"></a>
+# [0.8.0](https://github.com/sryzycki/learn-buddy-ci/compare/v0.7.1...v0.8.0) (2018-03-08)
+
+
+### Features
+
+* add a MyModule lib ([d275ca2](https://github.com/sryzycki/learn-buddy-ci/commit/d275ca2))
+
+
+
 <a name="0.7.1"></a>
 ## [0.7.1](https://github.com/sryzycki/learn-buddy-ci/compare/v0.7.0...v0.7.1) (2018-03-08)
 
