@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.7.1"></a>
+## [0.7.1](https://github.com/sryzycki/learn-buddy-ci/compare/v0.7.0...v0.7.1) (2018-03-08)
+
+
+### Bug Fixes
+
+* remove “test.js” error when Karma runs unit test ([21457b0](https://github.com/sryzycki/learn-buddy-ci/commit/21457b0))
+
+
+
 <a name="0.7.0"></a>
 # [0.7.0](https://github.com/sryzycki/learn-buddy-ci/compare/v0.6.0...v0.7.0) (2018-03-08)
 
