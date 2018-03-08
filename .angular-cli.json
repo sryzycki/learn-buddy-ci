@@ -1,12 +1,15 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "$schema": "./node_modules/@nrwl/schematics/src/schema.json",
   "project": {
-    "name": "learn-buddy"
+    "name": "learn-buddy",
+    "npmScope": "learn-buddy",
+    "latestMigration": "20180227-cleanup-scripts"
   },
   "apps": [
     {
-      "root": "src",
-      "outDir": "dist",
+      "name": "learn-buddy",
+      "root": "apps/learn-buddy/src",
+      "outDir": "dist/apps/learn-buddy",
       "assets": [
         "assets",
         "favicon.ico"
@@ -14,9 +17,9 @@
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
-      "test": "test.ts",
+      "test": "../../../test.js",
       "tsconfig": "tsconfig.app.json",
-      "testTsconfig": "tsconfig.spec.json",
+      "testTsconfig": "../../../tsconfig.spec.json",
       "prefix": "app",
       "styles": [
         "styles.scss"
@@ -36,15 +39,15 @@
   },
   "lint": [
     {
-      "project": "src/tsconfig.app.json",
+      "project": "apps/learn-buddy/src/tsconfig.app.json",
       "exclude": "**/node_modules/**"
     },
     {
-      "project": "src/tsconfig.spec.json",
+      "project": "./tsconfig.spec.json",
       "exclude": "**/node_modules/**"
     },
     {
-      "project": "e2e/tsconfig.e2e.json",
+      "project": "learn-buddy/tsconfig.e2e.json",
       "exclude": "**/node_modules/**"
     }
   ],
@@ -55,6 +58,14 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "component": {}
+    "component": {},
+    "schematics": {
+      "collection": "@nrwl/schematics",
+      "postGenerate": "npm run format",
+      "newProject": [
+        "app",
+        "lib"
+      ]
+    }
   }
 }
