@@ -57,6 +57,31 @@
       }
     },
     {
+      "name": "learn-buddy3",
+      "root": "apps/learn-buddy3/src",
+      "outDir": "dist/apps/learn-buddy3",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "../../../test.js",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "../../../tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "styles.css"
+      ],
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    },
+    {
       "name": "my-module",
       "root": "libs/my-module/src",
       "test": "../../../test.js",
@@ -87,6 +112,14 @@
     },
     {
       "project": "apps/learn-buddy2/e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "apps/learn-buddy3/src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "apps/learn-buddy3/e2e/tsconfig.e2e.json",
       "exclude": "**/node_modules/**"
     }
   ],
