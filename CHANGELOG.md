@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.9.0"></a>
+# [0.9.0](https://github.com/sryzycki/learn-buddy-ci/compare/v0.8.0...v0.9.0) (2018-03-20)
+
+
+### Features
+
+* add localised “Good morning” to “learn-buddy” app ([2aa7ff1](https://github.com/sryzycki/learn-buddy-ci/commit/2aa7ff1))
+* add new “learn-buddy3” app ([6d59192](https://github.com/sryzycki/learn-buddy-ci/commit/6d59192))
+
+
+
 <a name="0.8.0"></a>
 # [0.8.0](https://github.com/sryzycki/learn-buddy-ci/compare/v0.7.1...v0.8.0) (2018-03-08)
 
